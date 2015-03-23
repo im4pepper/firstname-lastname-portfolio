@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #FFFFFF;
+    /* Typography Declarations */
+    color: #55565b;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  color: #2a2c1a;
+}
+a:link {
+  color: #dbdcf4;
+  text-decoration: none;
+}
+a:visited {
+  color: #dbdcf4;
+  text-decoration: none;
+}
+.masthead {
+  padding: 4.5em 0;
+  background-image: url('http://www.mercatodesign.com/thinkful/banner1y.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -10em;
+  border-bottom: solid 0.5em  #afb3c1;
+}
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+.masthead-heading {
+  margin-bottom: 0.5em;
+  margin-left: -4.7em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+  color: #FFFFFF;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  text-shadow: 0.05em 0.05em 0.03em #2a2c1a;
+  }
+.masthead-intro {
+  margin-left: -13.8em;
+  margin-bottom: -2.2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2.3em;
+  color: #FFFFFF;
+  text-shadow: 0.06em 0.06em 0.05em #2a2c1a;
+  }
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2em;
+}
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+    margin-top: 2.5em;
+  font-weight: 300;
+}
+.content-footer {
+  max-width: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3em;
+  background-color: #626770;
+  padding: 1em 0 2em;
+  color: #dbdcf4;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+  color: #dbdcf4;
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.social > li {
+  display: inline-block;
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+        padding: 3em 0;
+    }
+}
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        margin-top: 2em;
+        padding: 1em 0.5em 2em; 
+    }
+}
