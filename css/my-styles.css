@@ -61,7 +61,8 @@ a:visited {
   margin-top:2em;
 }
 .introduction-section > h1,
-.web-developmer-section > h1 {
+.web-developmer-section > h1,
+.work-samples-section {
   margin-top: 2.5em;
   font-weight: 300;
 }
@@ -92,10 +93,6 @@ a:visited {
 }
 .work-samples-section > h1 {
     max-width: 40em;
-    /* Typography Declarations */
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 1.2em;
-    font-weight: bold;
 }
 .social > li {
   display: inline-block;
