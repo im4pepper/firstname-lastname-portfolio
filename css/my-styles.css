@@ -11,6 +11,10 @@ body {
 h1 {
   color: #2a2c1a;
 }
+h2 {
+  color: #452525;
+  font-size: 1.1em;
+}
 a:link {
   color: #f9e5c6;
   text-decoration: none;
@@ -18,10 +22,6 @@ a:link {
 a:visited {
   color: #f9e5c6;
   text-decoration: none;
-}
-.images {
-  border: 0;
-  border-margin: 0 .5em 0 1em;
 }
 .masthead {
   padding: 6em 0;
@@ -35,7 +35,6 @@ a:visited {
 .masthead-heading,
 .masthead-intro,
 .masthead-sub-intro,
-.work-samples-section,
 .content-footer {
   text-align: center;
 }
@@ -57,16 +56,26 @@ a:visited {
   color: #f9e5c6;
   text-shadow: 0.06em 0.06em 0.05em #270e0e;
   }
+.work-samples-section {
+  max-width: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3em;
+  background-color: #f9e5c6;
+  padding: 3.5em 0 3.5em;
+  color: #270e0e;
+}
 .introduction-section,
 .web-developer-section,
-.introduction-sub-section {
+.introduction-sub-section,
+.work-samples-section > h1, h2 {
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
   margin-top:2em;
 }
 .introduction-section > h1,
-.web-developmer-section > h1,
+.web-developer-section > h1,
 .work-samples-section, {
   margin-top: 2.5em;
   font-weight: 300;
@@ -80,15 +89,6 @@ a:visited {
   padding: 2.2em 0 3em;
   color: #f9e5c6;
 }
-.work-samples-section {
-  max-width: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:3em;
-  background-color: #f9e5c6;
-  padding: 3.5em 0 3.5em;
-  color: #270e0e;
-}
 .introduction > p,
 .content-footer > p {
   color: #f9e5c6;
@@ -96,9 +96,15 @@ a:visited {
     font-weight: 300;
     letter-spacing: 0.05em;
 }
-.work-samples-section > h1,
-.introduction-sub-section > h1 {
-    max-width: 40em;
+.portfolio {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.icon-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 .social > li {
   display: inline-block;
